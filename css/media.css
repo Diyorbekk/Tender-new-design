@@ -28,6 +28,9 @@
         height: 200px;
     }
 
+    .footer-logo {
+        width: 270px;
+    }
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
@@ -61,6 +64,17 @@
     }
     .main-statistics-box {
         height: 200px;
+    }
+
+    .footer .border-left,
+    .footer .border-right{
+        border: none!important;
+    }
+
+    .notification-num-box {
+        position: unset;
+        top: 0;
+        margin-right: 10px;
     }
 }
 
@@ -111,6 +125,17 @@
     .main-statistics-box {
         height: 200px;
     }
+
+    .footer .border-left,
+    .footer .border-right{
+        border: none!important;
+    }
+
+    .notification-num-box {
+        position: unset;
+        top: 0;
+        margin-right: 10px;
+    }
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
@@ -160,6 +185,21 @@
     }
     .main-statistics-box {
         height: 200px;
+    }
+
+    .footer .border-left,
+    .footer .border-right{
+        border: none!important;
+    }
+
+    .footer-logo {
+        width: 310px;
+    }
+
+    .notification-num-box {
+        position: unset;
+        top: 0;
+        margin-right: 10px;
     }
 }
 
@@ -218,6 +258,21 @@
 
     .main-statistics .text-38{
         font-size: 30px;
+    }
+
+    .footer .border-left,
+    .footer .border-right{
+        border: none!important;
+    }
+
+    .footer-logo {
+        width: 290px;
+    }
+
+    .notification-num-box {
+        position: unset;
+        top: 0;
+        margin-right: 10px;
     }
 }
 
