@@ -136,6 +136,15 @@
         top: 0;
         margin-right: 10px;
     }
+
+    .form-file-upload {
+        transform: unset;
+    }
+
+    .form-file-upload .custom-file-label {
+        line-height: normal;
+        font-size: 14px;
+    }
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
@@ -200,6 +209,22 @@
         position: unset;
         top: 0;
         margin-right: 10px;
+    }
+    .info-body-left-text {
+        font-size: 14px!important;
+    }
+
+    .info-body-right-text {
+        font-size: 14px!important;
+    }
+
+    .form-file-upload {
+        transform: unset;
+    }
+
+    .form-file-upload .custom-file-label {
+        line-height: normal;
+        font-size: 14px;
     }
 }
 
@@ -274,6 +299,24 @@
         top: 0;
         margin-right: 10px;
     }
+
+    .info-body-left-text {
+        font-size: 14px!important;
+    }
+
+    .info-body-right-text {
+        font-size: 14px!important;
+    }
+
+    .form-file-upload {
+        transform: unset;
+    }
+
+    .form-file-upload .custom-file-label {
+        line-height: normal;
+        font-size: 13px;
+    }
+
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/

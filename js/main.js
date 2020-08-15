@@ -228,6 +228,74 @@ $(document).ready(function () {
 
         }
     });
+
+
+    /*    function myFunction() {
+            $('.add-work-button').on('click', function () {
+                $('.add-work-column-box').append('                    <div class="add-work-box bg-white text-right px-4 py-2 mt-4">\n' +
+                    '                        <img src="../../images/icon-remove-circle.svg" id="remove" class="remove-add-work" alt="svg">\n' +
+                    '\n' +
+                    '                        <form class="add-work-box-form">\n' +
+                    '                            <div class="form-group text-left">\n' +
+                    '                                <label for="work">Наименование работ</label>\n' +
+                    '                                <select class="form-control" id="work">\n' +
+                    '                                    <option></option>\n' +
+                    '                                    <option></option>\n' +
+                    '                                    <option></option>\n' +
+                    '                                    <option></option>\n' +
+                    '                                    <option></option>\n' +
+                    '                                </select>\n' +
+                    '                            </div>\n' +
+                    '                        </form>\n' +
+                    '                    </div>')
+            });
+            $('.remove-add-work').on('click', function () {
+                $(this).remove();
+                console.log('asdas');
+            });
+        }
+
+        function myFunctionDeleted() {
+            $('.remove-add-work').on('click', function () {
+                $(this).parent().remove();
+                console.log('asdas');
+            });
+        }*/
+
+    var addWork = '<div class="add-work-box bg-white text-right px-4 py-2 mt-4">\n' +
+        '                        <img src="../../images/icon-remove-circle.svg" id="remove" class="remove-add-work" alt="svg">\n' +
+        '\n' +
+        '                        <form class="add-work-box-form">\n' +
+        '                            <div class="form-group text-left">\n' +
+        '                                <label for="work">Наименование работ</label>\n' +
+        '                                <select class="form-control" id="work">\n' +
+        '                                    <option></option>\n' +
+        '                                    <option></option>\n' +
+        '                                    <option></option>\n' +
+        '                                    <option></option>\n' +
+        '                                    <option></option>\n' +
+        '                                </select>\n' +
+        '                            </div>\n' +
+        '                        </form>\n' +
+        '                    </div>';
+
+    $(function () {
+        $('.add-work-button').click(function () {
+            $('.add-work-column-box').append(addWork)
+        });
+
+        $(document).on('click', '#remove', function () {
+            $(this).parent().remove();
+            console.log('asdas');
+        });
+    });
+
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+
+
 });
 
 

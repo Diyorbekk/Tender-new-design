@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <!-- Fonts css links -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../../fonts/font-awesome.min.css">
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../../css/countdown.css"/>
+
+    <!-- Bootstrap css link-->
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+
+    <!-- Default css link -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- Media css link -->
+    <link rel="stylesheet" href="../../css/media.css">
+
+    <title>Тендер</title>
+</head>
+<body>
+<div class="main-body overflow-hidden">
+    <div class="header">
+        <div class="header-top border-bottom border-color-DDE7F5">
+            <div class="container p-md-4 p-3">
+                <div class="d-flex align-items-center justify-content-md-between justify-content-center flex-wrap-reverse">
+                    <div class="col-md-3 p-0 mt-md-0 mt-4">
+                        <div class="d-flex align-items-start justify-content-between">
+                            <div class="col-6 p-0 main-logo">
+                                <a href="main.html"><img src="../../images/logo-blue.png" class="logo-blue"
+                                                         alt="png"></a>
+                            </div>
+
+                            <nav class="d-md-none justify-content-end navbar navbar-expand-md p-0 navbar-light">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarTogglerDemo03"
+                                        aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                    <i class="nav-icon-bar fa fa-align-right"></i>
+                                </button>
+
+                                <div class="collapse navbar-collapse align-items-start text-right"
+                                     id="navbarTogglerDemo03">
+                                    <form class="form-inline my-2 my-lg-0 justify-content-end">
+                                        <a type="button" href="authorization.html"
+                                           class="d-flex align-items-center btn bg-28366D text-14 text-white rounded-0 px-4 py-3">
+
+                                            <img src="../../images/person.svg" alt="svg">
+
+                                            <span class="ml-4">Заказчик</span>
+                                        </a>
+                                    </form>
+
+                                    <ul class="navbar-nav align-items-end mt-2 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="main.html">Главная</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="tender.html">Тендер</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contracts-and-agreements.html">Контракты и
+                                                договоры</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="news.html">Новости</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="statistics.html">Статистика</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="academy.html">Академия</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-5 col-lg-4 p-0">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-decoration-none color-28366D font-weight-500-medium">
+                                +998 90 000 00 00
+                            </a>
+
+                            <div class="d-flex align-items-center">
+                                <p class="text-14 language-select active" id="Uz">Uz</p>
+                                <span class="language-border"></span>
+                                <p class="text-14 language-select" id="En">En</p>
+                                <span class="language-border"></span>
+                                <p class="text-14 language-select pr-0" id="Ru">Ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="d-md-flex d-none align-items-end navbar p-0 navbar-light">
+
+                    <ul class="navbar-nav d-flex flex-row mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">Главная</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="tender.html">Тендер</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contracts-and-agreements.html">Контракты и договоры</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="statistics.html">Статистика</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy.html">Академия</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-lg-0">
+                        <a type="button" href="authorization.html"
+                           class="d-flex align-items-center btn bg-28366D text-14 text-white rounded-0 px-4 py-3">
+
+                            <img src="../../images/person.svg" class="mr-4 mr-md-2 mr-lg-4" alt="svg">
+
+                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Заказчик</span>
+                        </a>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="added-tender-box bg-F1F6FB pt-5">
+        <div class="container pb-5 px-4">
+            <div class="col-12 added-tender-box-body bg-white p-lg-5 p-3">
+                <p class="added-tender-box-title text-18 font-weight-600-semi-bold mt-2">Размещения объявления</p>
+                <div class="row justify-content-center my-4">
+                    <div class="rounded-50 d-md-inline-block d-none round-circle-header left-circle active"></div>
+                    <div class="col-md-3 p-3 added-tender-box-header-box mx-1 active">
+                        <p class="text-center added-tender-box-header-box-text text-12 mb-0">Общие данные</p>
+                    </div>
+                    <div class="rounded-50 d-md-inline-block d-none round-circle-header right-circle active"></div>
+
+                    <div class="col-md-3 p-3 added-tender-box-header-box mx-1">
+                        <p class="text-center added-tender-box-header-box-text text-12 mb-0">Документация</p>
+                    </div>
+                    <div class="rounded-50 d-md-inline-block d-none round-circle-header right-circle"></div>
+                    <div class="col-md-3 p-3 added-tender-box-header-box mx-1">
+                        <p class="text-center added-tender-box-header-box-text text-12 mb-0">Выбор комиссии</p>
+                    </div>
+                    <div class="rounded-50 d-md-inline-block d-none round-circle-header right-circle"></div>
+
+                </div>
+                <form class="row py-4">
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Наименование</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Тип объекта</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Тип услуги</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Начальная цена (с НДС)</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Окончание срока работ</p>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Наименование заказчика</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Область</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Район</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Адрес</p>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Телефон</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Финансовый источник</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Валюта оплаты</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Язык оформления</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Порядок оплаты</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Срок внесения оплаты</p>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Срок размещения</p>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Контактное лицо</p>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Ф.И.О" class="form-control">
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0"></p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <input type="text" placeholder="Должность" class="form-control">
+
+                            <button type="button"
+                                    class="btn color-B1B1B1 px-2 py-0 h-auto mt-3 mb-2 focus-none text-14"><i
+                                    class="fa fa-plus plus-icon-box text-10 text-center align-middle text-white rounded mr-3 bg-1C blue-btn-effect"></i>
+                                Добавить контакты
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex added-tender-box-form-box my-2 col-12 flex-wrap">
+                        <div class="col-md-3">
+                            <p class="text-14 text-right h-100 line-height-30 mb-0">Дополнительная информация</p>
+                        </div>
+                        <div class="col-md-6">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+                </form>
+
+                <p class="text-14">
+                      Тендер иштирокчилари иш (хизмат) ларни бажариш учун зарур булгап мехнат ресурслари ва
+                    мутахассисларнинг мавжудлигига, мутахассисларнинг етарли касбий ва техникавий малакага, молиявий
+                    имкониятларга, шартнома тузиш юзасидан фукаролик-муомала лаёкати ваколатларига эга ва тажрибали
+                    булишлари шарт.
+                    <br>
+                    <br>
+                      Таклифларни бахолашда иштирокчиларнинг тендер таклифлари конун хужжатларига мувофик
+                    кушилган киймат с о лиги дан озод килинган импорт килувчиларнинг товар (иш, хизмат) лари кушилган
+                    киймат солиги суммаси куши мча равишда хисобга олинади.
+                    <br>
+                    <br>
+                      Тасдикланган тендер хужжатлари буюртмачи
+                    томонидан жойлаштириладиган давлат харидлари буйича махсус ахборот порталидан юклаб олишлари мумкин.
+                    Таклифлар тендер ташкилотчиси томонидан тендер эълонида чоп этилган куни ва вактига кадар кабул
+                    килинади.</p>
+            </div>
+
+            <div class="col-12 added-tender-box-footer bg-white px-lg-5 py-lg-4 p-3 d-flex align-items-center justify-content-between mt-2">
+                <button class="btn white-button focus-none px-md-4 my-lg-2">Сохранить</button>
+                <a href="added-tender-2.html" class="btn bg-1C focus-none blue-btn-effect px-md-4 my-lg-2 text-white">Далее</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="main-partners bg-white">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between flex-wrap p-4">
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 pl-lg-0 pr-lg-4 d-flex align-items-center justify-content-md-center justify-content-start">
+                <img src="../../images/logo-opendata.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">O'zbekiston Respublikasi Ochiq ma`lumotlar
+                    to`plami</p>
+            </a>
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 d-flex align-items-center justify-content-md-center justify-content-start">
+                <img src="../../images/logo-strategy.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">Harakatlar strategiyasi</p>
+            </a>
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 d-flex align-items-start justify-content-md-center justify-content-start">
+                <img src="../../images/logo-dd.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">O`zbekiston Respublikasi davlat dasturlar
+                    xizmati</p>
+            </a>
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 pr-lg-0 pl-lg-4 d-flex align-items-start justify-content-md-center justify-content-start">
+                <img src="../../images/logo-mygovuz.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">Yagona interaktiv xizmatlar to`plami</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer bg-28366D pb-4">
+    <div class="footer-empty p-4 footer-border"></div>
+
+    <div class="container">
+        <div class="d-flex align-items-start justify-content-between flex-wrap my-4">
+            <div class="col-lg-4 mt-lg-0 my-4 pl-lg-0 text-md-center text-lg-left text-left pr-lg-3">
+                <img src="../../images/logo-white.png" class="footer-logo" alt="png">
+            </div>
+            <div class="col-lg-4 mt-lg-0 my-4 px-lg-4 text-md-center text-lg-left text-left border-left border-right">
+                <div class="footer-links-box mx-lg-4">
+                    <p class="text-12 font-weight-600-semi-bold text-white">ОФИЦИАЛЬНЫЕ РЕСУРСЫ</p>
+                    <ul class="mt-2">
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O'zbekiston
+                            Respublikasi Qurilish vazirligi</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O`zbekiston
+                            Respublikasi Prezidentining rasmiy sayti</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O`zbekiston
+                            Respublikasi davlat dasturlar xizmati</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O`zbekiston
+                            Respublikasi Hukumat portali</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Yagona
+                            interaktiv xizmatlar to`plami</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Harakatlar
+                            strategiyasi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-lg-0 my-4 pr-lg-0 text-md-center text-lg-left text-left pl-lg-3">
+                <div class="footer-links-box mx-lg-4">
+                    <p class="text-12 font-weight-600-semi-bold text-white">ТЕХНИЧЕСКАЯ ИНФОРМАЦИЯ</p>
+                    <ul class="mt-2">
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Техническая
+                            поддержка</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Ваши идеи по
+                            улучшению сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Js links -->
+
+<script src="../../js/jQuery.min.js"></script>
+<script src="../../js/popper.js"></script>
+<script src="../../js/bootstrap.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>

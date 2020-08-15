@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="87"
+     viewBox="0 0 170 87">
+    <defs>
+        <style>.a,.c{fill:#fff;}.b{fill:#1c7cd5;stroke:#1c7cd5;}.c{font-size:16px;font-family:Montserrat-Light,
+            Montserrat;font-weight:300;}.d{fill:#bfbfbf;}.e{stroke:none;}.f{fill:none;}.g{filter:url(#a);}
+        </style>
+        <filter id="a" x="0" y="0" width="170" height="87" filterUnits="userSpaceOnUse">
+            <feOffset input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="8" result="b"/>
+            <feFlood flood-color="#b7cede" flood-opacity="0.4"/>
+            <feComposite operator="in" in2="b"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(-364 -350.208)">
+        <g class="g" transform="matrix(1, 0, 0, 1, 364, 350.21)">
+            <rect class="a" width="122" height="39" rx="4" transform="translate(24 24)"/>
+        </g>
+        <g class="b" transform="translate(399 383.208)">
+            <rect class="e" width="57" height="21" rx="4"/>
+            <rect class="f" x="0.5" y="0.5" width="56" height="20" rx="3.5"/>
+        </g>
+        <text class="c" transform="translate(410 399.208)">
+            <tspan x="0" y="0">Doc</tspan>
+        </text>
+        <path class="d" d="M19,9H15V3H9V9H5l7,7ZM5,18v2H19V18Z" transform="translate(475 382.208)"/>
+    </g>
+</svg>

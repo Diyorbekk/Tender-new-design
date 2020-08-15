@@ -94,6 +94,10 @@ body {
     line-height: 18px;
 }
 
+.line-height-30 {
+    line-height: 30px;
+}
+
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
@@ -660,6 +664,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 30;
 }
 
 .info-tender-card-active {
@@ -683,5 +689,131 @@ body {
     left: 0;
 }
 
+.info-body-left-text{
+    line-height: 30px;
+}
+
+.info-icon-help{
+    transform: translateY(-15px);
+}
+
+.blue-btn-effect {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.blue-btn-effect:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+
+.blue-btn-effect:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.round-circle-header {
+    background: #EBEBEB;
+    width: 14px;
+    height: 14px;
+    transform: translateY(-5px);
+}
+
+.round-circle-header.active {
+    background: #1BD546;
+}
+
+.added-tender-box-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.added-tender-box-header-box:after {
+    content: "";
+    display: block;
+    width: 100%;
+    background: #EBEBEB;
+    position: absolute;
+    height: 4px;
+    top: 0;
+}
+
+.added-tender-box-header-box-text {
+    font-weight: 300;
+    color: #D2D2D2;
+}
+
+.added-tender-box-header-box.active .added-tender-box-header-box-text{
+    font-weight: 500;
+    color: black;
+}
+
+.added-tender-box-header-box.active {
+    background: #F1F6FB;
+}
+
+.added-tender-box-header-box.active:after {
+    background: #1BD546;
+}
+
+.added-tender-box-form-box .form-control{
+    border: 1px solid #DDDDDD!important;
+}
+
+.added-tender-box-form-box .form-control::placeholder{
+    color: #c4c4c4;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.plus-icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+}
+
+.white-button {
+    border: 1px solid #1C7CD5;
+    color: #1C7CD5;
+    background: white;
+    font-weight: 500;
+}
+
+.form-file-upload {
+    transform: translateY(-20px);
+}
+
+.form-file-upload .custom-file-label::after {
+    content: "";
+    display: none;
+}
+
+.form-file-upload .custom-file-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #BBBBBB;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    height: 39px;
+}
+
+.add-work-box {
+    box-shadow: 0 3px 10px #00000021;
+}
+
+.remove-add-work {
+    cursor: pointer;
+}
 
 /* Pages style classes end */
