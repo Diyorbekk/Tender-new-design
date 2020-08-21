@@ -229,39 +229,6 @@ $(document).ready(function () {
         }
     });
 
-
-    /*    function myFunction() {
-            $('.add-work-button').on('click', function () {
-                $('.add-work-column-box').append('                    <div class="add-work-box bg-white text-right px-4 py-2 mt-4">\n' +
-                    '                        <img src="../../images/icon-remove-circle.svg" id="remove" class="remove-add-work" alt="svg">\n' +
-                    '\n' +
-                    '                        <form class="add-work-box-form">\n' +
-                    '                            <div class="form-group text-left">\n' +
-                    '                                <label for="work">Наименование работ</label>\n' +
-                    '                                <select class="form-control" id="work">\n' +
-                    '                                    <option></option>\n' +
-                    '                                    <option></option>\n' +
-                    '                                    <option></option>\n' +
-                    '                                    <option></option>\n' +
-                    '                                    <option></option>\n' +
-                    '                                </select>\n' +
-                    '                            </div>\n' +
-                    '                        </form>\n' +
-                    '                    </div>')
-            });
-            $('.remove-add-work').on('click', function () {
-                $(this).remove();
-                console.log('asdas');
-            });
-        }
-
-        function myFunctionDeleted() {
-            $('.remove-add-work').on('click', function () {
-                $(this).parent().remove();
-                console.log('asdas');
-            });
-        }*/
-
     var addWork = '<div class="add-work-box bg-white text-right px-4 py-2 mt-4">\n' +
         '                        <img src="../../images/icon-remove-circle.svg" id="remove" class="remove-add-work" alt="svg">\n' +
         '\n' +
@@ -286,7 +253,6 @@ $(document).ready(function () {
 
         $(document).on('click', '#remove', function () {
             $(this).parent().remove();
-            console.log('asdas');
         });
     });
 
@@ -295,7 +261,23 @@ $(document).ready(function () {
         $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
     });
 
+    $('.cabinet-left-panel-box ul li.active').prepend('<i class="fa fa-dot-circle-o mr-3 text-white text-12" aria-hidden="true"></i>')
 
+    $('.cabinet-right-panel .filter-list-icon').on('click', function () {
+        $(this).parent().find('.filter-list-open').slideToggle(0);
+        $(this).parent().toggleClass('col-lg-8 col-lg-12');
+        if (window.matchMedia('(max-width: 768px)').matches && window.matchMedia('(min-width: 320px)').matches) {
+            $(this).parent().toggleClass('col-6 col-12');
+        }
+    });
+
+    $('.contracts-body .filter-list-icon').on('click', function () {
+        $(this).parent().find('.filter-list-open').slideToggle(0);
+        $(this).parent().toggleClass('col-lg-8 col-lg-12');
+        if (window.matchMedia('(max-width: 768px)').matches && window.matchMedia('(min-width: 320px)').matches) {
+            $(this).parent().toggleClass('col-6 col-12');
+        }
+    });
 });
 
 

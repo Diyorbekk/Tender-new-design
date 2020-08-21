@@ -12,9 +12,6 @@
           rel="stylesheet">
     <link rel="stylesheet" href="../../fonts/font-awesome.min.css">
 
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../../css/countdown.css"/>
-
     <!-- Bootstrap css link-->
     <link rel="stylesheet" href="../../css/bootstrap.css">
 
@@ -55,7 +52,7 @@
 
                                             <img src="../../images/person.svg" alt="svg">
 
-                                            <span class="ml-4">Заказчик</span>
+                                            <span class="ml-4">Войти</span>
                                         </a>
                                     </form>
 
@@ -63,10 +60,10 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="main.html">Главная</a>
                                         </li>
-                                        <li class="nav-item active">
+                                        <li class="nav-item">
                                             <a class="nav-link" href="tender.html">Тендер</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item active">
                                             <a class="nav-link" href="contracts-and-agreements.html">Контракты и
                                                 договоры</a>
                                         </li>
@@ -111,10 +108,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="main.html">Главная</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="tender.html">Тендер</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="contracts-and-agreements.html">Контракты и договоры</a>
                         </li>
                         <li class="nav-item">
@@ -133,7 +130,7 @@
 
                             <img src="../../images/person.svg" class="mr-4 mr-md-2 mr-lg-4" alt="svg">
 
-                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Заказчик</span>
+                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Войти</span>
                         </a>
                     </form>
                 </nav>
@@ -141,145 +138,172 @@
         </div>
     </div>
 
-    <div class="added-tender-box bg-F1F6FB pt-5">
-        <div class="container pb-5 px-4">
-            <div class="col-12 added-tender-box-body bg-white p-lg-5 p-3">
-                <p class="added-tender-box-title text-18 font-weight-600-semi-bold mt-2">Размещения объявления</p>
-                <div class="row justify-content-center my-4">
-                    <div class="rounded-50 d-md-inline-block d-none round-circle-header left-circle active"></div>
-                    <div class="col-md-3 p-3 added-tender-box-header-box mx-1 active">
-                        <p class="text-center added-tender-box-header-box-text text-12 mb-0">Общие данные</p>
-                    </div>
-                    <div class="rounded-50 d-md-inline-block d-none round-circle-header right-circle active"></div>
+    <div class="contracts-body bg-F1F6FB">
+        <div class="container py-5 px-4">
+            <div class="col-12 px-md-3 px-0 info-tender-header-card bg-white">
+                <a href="contracts-and-agreements.html" class="text-decoration-none text-body info-tender-card px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0">Состоявшиеся</p>
+                </a>
 
-                    <div class="col-md-3 p-3 added-tender-box-header-box mx-1 active">
-                        <p class="text-center added-tender-box-header-box-text text-12 mb-0">Документация</p>
-                    </div>
-                    <div class="rounded-50 d-md-inline-block d-none round-circle-header right-circle active"></div>
-                    <div class="col-md-3 p-3 added-tender-box-header-box mx-1">
-                        <p class="text-center added-tender-box-header-box-text text-12 mb-0">Выбор комиссии</p>
-                    </div>
-                    <div class="rounded-50 d-md-inline-block d-none round-circle-header right-circle"></div>
-
-                </div>
-                <p class="font-weight-500-medium text-body py-4 mb-0">Описание и объёмы работы (услуги)</p>
-
-                <div class="row justify-content-center">
-                    <div class="col-md-12 px-4">
-
-                        <button type="button" class="btn font-weight-300-light text-14 color-6CB4E2 focus-none">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink"
-                                 width="170" height="87"
-                                 viewBox="0 0 170 87">
-                                <defs>
-                                    <style>.a, .c {
-                                        fill: #fff;
-                                    }
-
-                                    .b {
-                                        fill: #1c7cd5;
-                                        stroke: #1c7cd5;
-                                    }
-
-                                    .c {
-                                        font-size: 16px;
-                                        font-family: Montserrat-Light,
-                                        Montserrat;
-                                        font-weight: 300;
-                                    }
-
-                                    .d {
-                                        fill: #bfbfbf;
-                                    }
-
-                                    .e {
-                                        stroke: none;
-                                    }
-
-                                    .f {
-                                        fill: none;
-                                    }
-
-                                    .g {
-                                        filter: url(#a);
-                                    }
-                                    </style>
-                                    <filter id="a" x="0" y="0" width="170" height="87" filterUnits="userSpaceOnUse">
-                                        <feOffset input="SourceAlpha"/>
-                                        <feGaussianBlur stdDeviation="8" result="b"/>
-                                        <feFlood flood-color="#b7cede" flood-opacity="0.4"/>
-                                        <feComposite operator="in" in2="b"/>
-                                        <feComposite in="SourceGraphic"/>
-                                    </filter>
-                                </defs>
-                                <g transform="translate(-364 -350.208)">
-                                    <g class="g" transform="matrix(1, 0, 0, 1, 364, 350.21)">
-                                        <rect class="a" width="122" height="39" rx="4" transform="translate(24 24)"/>
-                                    </g>
-                                    <g class="b" transform="translate(399 383.208)">
-                                        <rect class="e" width="57" height="21" rx="4"/>
-                                        <rect class="f" x="0.5" y="0.5" width="56" height="20" rx="3.5"/>
-                                    </g>
-                                    <text class="c" transform="translate(410 399.208)">
-                                        <tspan x="0" y="0">XLS</tspan>
-                                    </text>
-                                    <path class="d" d="M19,9H15V3H9V9H5l7,7ZM5,18v2H19V18Z"
-                                          transform="translate(475 382.208)"/>
-                                </g>
-                            </svg>
-
-                            Шаблон описание и объёмы работы (услуги)
-                        </button>
-                    </div>
-                    <form class="col-md-11 px-2 form-file-upload d-flex align-items-center justify-content-between justify-content-md-start">
-                        <div class="custom-file col-md-9 col-6">
-                            <input type="file" class="custom-file-input focus-none" id="customFile">
-                            <label class="custom-file-label focus-none mb-0" for="customFile">Вставить файл</label>
-                        </div>
-                        <button type="button" class="btn bg-1C blue-btn-effect text-17 text-white focus-none ml-2">
-                            Вставить
-                        </button>
-
-                    </form>
-                </div>
+                <a href="contracts-and-agreements-2.html" class="text-decoration-none text-body info-tender-card-active px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0">Несостоявшиеся</p>
+                </a>
             </div>
+            <div class="col-12 info-tender-body-card bg-white position-relative z-index-5 px-md-3 pt-md-4 pb-1 px-3 pt-3">
 
-            <div class="col-12 added-tender-box-body bg-white p-lg-5 p-3 mt-2">
-                <p class="font-weight-500-medium text-body mb-4">График работ строительства</p>
+                <div class="d-flex flex-wrap-reverse align-items-center justify-content-between mt-4">
+                    <div class="d-flex col-lg-4 col-6 px-0">
+                        <p class="font-weight-500-medium text-12 mb-0"><span>6</span> из <span>120</span></p>
 
-                <div class="add-work-column-box">
-                    <div class="add-work-box bg-white text-right px-4 pb-2 pt-4">
-                        <img src="../../images/icon-remove-circle.svg" id="remove" class="remove-add-work d-none" alt="svg">
-                        <form class="add-work-box-form">
-                            <div class="form-group text-left">
-                                <label for="work">Наименование работ</label>
-                                <select class="form-control" id="work">
-                                    <option></option>
-                                    <option></option>
-                                    <option></option>
-                                    <option></option>
-                                    <option></option>
-                                </select>
+                        <p class="text-12 mb-0"><i type="button" class="fa fa-chevron-left mx-lg-3 mx-2"></i>6<i
+                                type="button"
+                                class="fa fa-chevron-right mx-lg-3 mx-2"></i>
+                        </p>
+                    </div>
+
+                    <div class="filter-list-list col-lg-8 col-6 text-right px-0">
+                        <img src="../../images/icon-filter-list.svg" class="filter-list-icon" type="button"
+                             alt="svg">
+
+                        <div class="filter-list-open" style="display: none">
+                            <div class="d-flex flex-wrap align-items-center text-left">
+                                <div class="col-lg-2 pl-lg-0">
+                                    <div class="form-group">
+                                        <label class="text-12" for="Number-lot">№ лота</label>
+                                        <input type="text" class="form-control" id="Number-lot">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 pl-lg-0">
+                                    <div class="form-group">
+                                        <label class="text-12" for="name">Номер договор</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 pl-lg-0">
+                                    <div class="form-group">
+                                        <label class="text-12" for="object-tip">Тип объекта</label>
+                                        <select class="form-control" id="object-tip">
+                                            <option></option>
+                                            <option></option>
+                                            <option></option>
+                                            <option></option>
+                                            <option></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 pl-lg-0 ">
+                                    <div class="form-group overflow-hidden">
+                                        <label class="text-12 text-nowrap " for="data">Дата сделки</label>
+                                        <input type="text" class="form-control" id="data">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 pl-lg-0">
+                                    <div class="form-group">
+                                        <label class="text-12" for="status">Заказчик</label>
+                                        <input type="text" class="form-control" id="status">
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 px-lg-0 mt-lg-1">
+                                    <button type="button" class="btn bg-1C blue-btn-effect w-100 text-white focus-none mt-lg-2">Поиск
+                                    </button>
+                                </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-start">
-                    <button type="button"
-                            class="btn color-B1B1B1 d-flex align-items-center px-0 h-auto mt-3 mb-2 focus-none text-14 add-work-button">
-                        <i
-                                class="fa fa-plus plus-icon-box text-10 text-center align-middle text-white rounded mr-3 bg-1C blue-btn-effect"></i>
-                        Добавить еще
-                    </button>
+                <div class="table-responsive scroll-style mt-4 pb-5 mb-5">
+                    <table class="table borderless table-striped-even">
+                        <thead class="bg-F3F9FF">
+                        <tr>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap pl-4">Ф.И.О</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Дата сделки</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Номер договора</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Стартовая сумма</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Сумма сделки</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Кол-во участников</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Наименование заказчика
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                12254 85646 36ASFA
+                            </th>
+                            <td class="text-12 text-nowrap">24.02.2020</td>
+                            <td class="text-12 text-nowrap">800
+                            </td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">2</td>
+                            <td class="text-12 text-nowrap">Министерство строительства Республики Узбекистан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                12254 85646 36ASFA
+                            </th>
+                            <td class="text-12 text-nowrap">24.02.2020</td>
+                            <td class="text-12 text-nowrap">800
+                            </td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">2</td>
+                            <td class="text-12 text-nowrap">Министерство строительства Республики Узбекистан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                12254 85646 36ASFA
+                            </th>
+                            <td class="text-12 text-nowrap">24.02.2020</td>
+                            <td class="text-12 text-nowrap">800
+                            </td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">2</td>
+                            <td class="text-12 text-nowrap">Министерство строительства Республики Узбекистан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                12254 85646 36ASFA
+                            </th>
+                            <td class="text-12 text-nowrap">24.02.2020</td>
+                            <td class="text-12 text-nowrap">800
+                            </td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">2</td>
+                            <td class="text-12 text-nowrap">Министерство строительства Республики Узбекистан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                12254 85646 36ASFA
+                            </th>
+                            <td class="text-12 text-nowrap">24.02.2020</td>
+                            <td class="text-12 text-nowrap">800
+                            </td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">2</td>
+                            <td class="text-12 text-nowrap">Министерство строительства Республики Узбекистан</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                12254 85646 36ASFA
+                            </th>
+                            <td class="text-12 text-nowrap">24.02.2020</td>
+                            <td class="text-12 text-nowrap">800
+                            </td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">150 000 000</td>
+                            <td class="text-12 text-nowrap">2</td>
+                            <td class="text-12 text-nowrap">Министерство строительства Республики Узбекистан</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
                 </div>
 
-            </div>
-
-            <div class="col-12 added-tender-box-footer bg-white px-lg-5 py-lg-4 p-3 d-flex align-items-center justify-content-between mt-2">
-                <button class="btn white-button focus-none px-md-4 my-lg-2">Сохранить</button>
-                <a href="added-tender-3.html" class="btn bg-1C focus-none blue-btn-effect px-md-4 my-lg-2 text-white">Далее</a>
             </div>
         </div>
     </div>

@@ -55,7 +55,7 @@
 
                                             <img src="../../images/person.svg" alt="svg">
 
-                                            <span class="ml-4">Войти</span>
+                                            <span class="ml-4">Заказчик</span>
                                         </a>
                                     </form>
 
@@ -133,7 +133,7 @@
 
                             <img src="../../images/person.svg" class="mr-4 mr-md-2 mr-lg-4" alt="svg">
 
-                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Войти</span>
+                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Заказчик</span>
                         </a>
                     </form>
                 </nav>
@@ -168,7 +168,8 @@
                     </div>
                     <div class="col-lg-4 pr-lg-0 pr-lg-3 mt-lg-0 mt-3 px-0">
                         <div class="info-header-box bg-white p-xl-4 p-md-3 p-2">
-                            <p class="info-header-box-title text-14 font-weight-600-semi-bold border-bottom-0 mb-lg-0 mb-2">До
+                            <p class="info-header-box-title text-14 font-weight-600-semi-bold border-bottom-0 mb-lg-0 mb-2">
+                                До
                                 окончания осталось</p>
 
                             <div class="d-flex justify-content-center">
@@ -188,206 +189,155 @@
                 </div>
             </div>
 
-            <div class="col-12 px-md-3 px-0 info-tender-header-card bg-white">
-                <div class="info-tender-card-active px-5 py-4">
+            <div class="col-12 px-md-3 px-0 info-tender-header-card flex-wrap bg-white">
+                <a href="customer-info-tender.html" class="info-tender-card text-decoration-none text-body px-5 py-4">
                     <p class="text-12 font-weight-500-medium mb-0">Информация о лоте</p>
+                </a>
+                <a href="customer-document-tender.html" class="info-tender-card text-decoration-none text-body px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0">Документация</p>
+                </a>
+                <a href="customer-check-tender.html" class="info-tender-card-active text-decoration-none text-body px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0">Проверка комиссии</p>
+                </a>
+            </div>
+            <div class="col-12 info-tender-body-card bg-white position-relative z-index-5 px-md-5 pt-md-5 pb-md-5 pb-3 px-3 pt-3">
+
+                <p class="id_number_2 mt-5">Решения комиссии</p>
+
+                <div class="table-responsive px-4">
+                    <div class="d-flex align-items-center solutions-first">
+                        <div class="solutions-round">
+                        </div>
+
+                        <p class="solutions-first-text text-nowrap mb-0">
+                            Ф.И.О
+                        </p>
+
+                        <p class="solutions-second-text text-nowrap mb-0">
+                            Решения
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center solutions-second mt-2">
+                        <div class="solutions-round">
+                            <span class="solutions-rounded active"></span>
+                        </div>
+
+                        <p class="solutions-first-text text-nowrap mb-0">
+                            Баходир Аброров
+                        </p>
+
+                        <p class="solutions-second-text text-nowrap mb-0">
+                            Принял
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center solutions-second mt-2">
+                        <div class="solutions-round">
+                            <span class="solutions-rounded"></span>
+                        </div>
+
+                        <p class="solutions-first-text text-nowrap mb-0">
+                            Акмал Иброхимов
+                        </p>
+
+                        <p class="solutions-second-text text-nowrap mb-0">
+                            Воздержался
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center solutions-second mt-2">
+                        <div class="solutions-round">
+                            <span class="solutions-rounded"></span>
+                        </div>
+
+                        <p class="solutions-first-text text-nowrap mb-0">
+                            Санжар Абдуллаев
+                        </p>
+
+                        <p class="solutions-second-text text-nowrap mb-0">
+                            Воздержался
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center solutions-second mt-2">
+                        <div class="solutions-round">
+                            <span class="solutions-rounded active"></span>
+                        </div>
+
+                        <p class="solutions-first-text text-nowrap mb-0">
+                            Zokir Alimov
+                        </p>
+
+                        <p class="solutions-second-text text-nowrap mb-0">
+                            Принял
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center solutions-second mt-2">
+                            <div class="solutions-round">
+                                <span class="solutions-rounded inactive"></span>
+                            </div>
+
+                            <p class="solutions-first-text text-nowrap mb-0">
+                                Ilyos Ashurov
+                            </p>
+
+                            <button class="btn more-info-btn focus-none solutions-second-text text-nowrap px-0">
+                                Отказал
+                                <i class="icon-plus fa fa-angle-down mr-4" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="more-info-open mt-4 px-5 w-100" style="display: none">
+
+                            <p class="font-weight-600-semi-bold">Причина отказа</p>
+                            <p class="text-14 ml-5">Не хватает документы по финансовый части</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center solutions-second mt-2">
+                        <div class="solutions-round">
+                            <span class="solutions-rounded active"></span>
+                        </div>
+
+                        <p class="solutions-first-text text-nowrap mb-0">
+                            Abdurahmon Muminov
+                        </p>
+
+                        <p class="solutions-second-text text-nowrap mb-0">
+                            Принял
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center solutions-second mt-2">
+                            <div class="solutions-round">
+                                <span class="solutions-rounded inactive"></span>
+                            </div>
+
+                            <p class="solutions-first-text text-nowrap mb-0">
+                                Ravshan Abdusattorov
+                            </p>
+
+                            <button class="btn more-info-btn focus-none solutions-second-text text-nowrap px-0">
+                                Отказал
+                                <i class="icon-plus fa fa-angle-down mr-4" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="more-info-open mt-4 px-5 w-100" style="display: none">
+
+                            <p class="font-weight-600-semi-bold solutions-first-text text-nowrap">Причина отказа</p>
+                            <p class="text-14 ml-5 solutions-second-text text-nowrap">Не хватает документы по финансовый
+                                части</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 info-tender-body-card bg-white position-relative z-index-5 px-md-5 pt-md-5 pb-1 px-3 pt-3">
-                <div class="row justify-content-center">
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right mb-4 h-100 info-body-left-text">№ лота</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="font-weight-500-medium text-20 info-body-right-text mb-4 text-lef h-100">12254 85646
-                            36ASFA</p>
-                    </div>
 
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Наименование</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Риштон туманидаги "Қуйи Қизилтепа"
-                            коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</p>
-                    </div>
 
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Тип объекта</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Школа</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Тип услуги</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Реконструкция</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Начальная цена (с НДС)</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">1 000 000 000</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text mb-4 font-weight-500-medium">Окончание срока работ</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100 mb-4">20.02.2022</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Наименование заказчика</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">СтройГород ООО</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Область</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Ферганская область</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Район</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">г. Фергана</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Адрес заказчика</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Аҳмад Ал-Фарғоний кўчаси, 92-уй</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text mb-4 font-weight-500-medium">Телефон:</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100 mb-4">244-69-62</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Финансовый источник</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Бюджет</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Требование по рейтингу</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="info-body-right-text text-lef d-inline-block px-4 bg-success rounded text-white">ААА
-                        </p><img src="../../images/ic-help.svg" class="ml-1 info-icon-help" alt="svg">
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Технико-квалификационная часть</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">60%</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text mb-4 font-weight-500-medium">Ценовая часть</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100 mb-4">40%</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Валюта оплаты</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">сум</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Язык оформления</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Узбекский язык</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Порядок оплаты</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">Предоплата</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Срок внесения оплаты</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">5 дней</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text font-weight-500-medium">Срок размещения</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100">32 дня</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text mb-4 font-weight-500-medium">Контактное лицо</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100 mb-4">Баходир Аброров Ахрорович,
-                            Бригадир</p>
-                    </div>
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right h-100 info-body-left-text mb-4 font-weight-500-medium">Дополнительная информация</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="text-20 info-body-right-text text-lef h-100 mb-4">-</p>
-                    </div>
-                </div>
+            <div class="col-12 added-tender-box-footer bg-white px-lg-5 py-lg-4 p-3 d-flex align-items-center flex-wrap justify-content-between mt-2">
+                <a href="customer-document-tender.html"
+                   class="btn bg-1C col-lg-2 focus-none blue-btn-effect px-md-4 my-lg-2 text-white">Назад</a>
+                <div class="d-flex col-lg-10 px-0 justify-content-lg-end justify-content-center flex-wrap flex-lg-nowrap">
+                    <a href="customer-check-tender.html"
+                       class="btn focus-none bg-DBDBDB col-xl-5 col-lg-8 px-md-4 my-lg-2 mt-3 mr-lg-4 mr-0 text-white">Редактировать и отправить на проверку</a>
 
-                Тендер иштирокчилари иш (хизмат) ларни бажариш учун зарур булгап мехнат ресурслари ва мутахассисларнинг
-                мавжудлигига, мутахассисларнинг етарли касбий ва техникавий малакага, молиявий имкониятларга, шартнома
-                тузиш юзасидан фукаролик-муомала лаёкати ваколатларига эга ва тажрибали булишлари шарт.
-                <br>
-                <br>
-                Таклифларни бахолашда иштирокчиларнинг тендер таклифлари конун хужжатларига мувофик кушилган киймат с о лиги дан
-                озод килинган импорт килувчиларнинг товар (иш, хизмат) лари кушилган киймат солиги суммаси куши мча
-                равишда хисобга олинади.
-                <br>
-                <br>
-                Тасдикланган тендер хужжатлари буюртмачи томонидан жойлаштириладиган давлат
-                харидлари буйича махсус ахборот порталидан юклаб олишлари мумкин. Таклифлар тендер ташкилотчиси
-                томонидан тендер эълонида чоп этилган куни ва вактига кадар кабул килинади.
-
-                <div class="row justify-content-center mt-5">
-                    <div class="col-md-4 col-6 px-2 px-md-3">
-                        <p class="color-28366D text-right mb-0 font-weight-500-medium">Руководитель</p>
-                        <p class="color-28366D text-right mb-4 font-weight-500-medium">организации заказчика</p>
-                    </div>
-                    <div class="col-md-7 col-6 px-2 px-md-3">
-                        <p class="info-body-right-text mb-4 text-lef h-100">Бобуров Анвар Эргашевич</p>
-                    </div>
-
-                    <div class="col-12 text-right px-0">
-                        <button type="button" class="btn focus-none"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="87"
-                                                                          viewBox="0 0 170 87">
-                            <defs>
-                                <style>.a,.c{fill:#fff;}.b{fill:#1c7cd5;stroke:#1c7cd5;}.c{font-size:16px;font-family:Montserrat-Light,
-                                Montserrat;font-weight:300;}.d{fill:#bfbfbf;}.e{stroke:none;}.f{fill:none;}.g{filter:url(#a);}
-                                </style>
-                                <filter id="a" x="0" y="0" width="170" height="87" filterUnits="userSpaceOnUse">
-                                    <feOffset input="SourceAlpha"/>
-                                    <feGaussianBlur stdDeviation="8" result="b"/>
-                                    <feFlood flood-color="#b7cede" flood-opacity="0.4"/>
-                                    <feComposite operator="in" in2="b"/>
-                                    <feComposite in="SourceGraphic"/>
-                                </filter>
-                            </defs>
-                            <g transform="translate(-364 -350.208)">
-                                <g class="g" transform="matrix(1, 0, 0, 1, 364, 350.21)">
-                                    <rect class="a" width="122" height="39" rx="4" transform="translate(24 24)"/>
-                                </g>
-                                <g class="b" transform="translate(399 383.208)">
-                                    <rect class="e" width="57" height="21" rx="4"/>
-                                    <rect class="f" x="0.5" y="0.5" width="56" height="20" rx="3.5"/>
-                                </g>
-                                <text class="c" transform="translate(410 399.208)">
-                                    <tspan x="0" y="0">Doc</tspan>
-                                </text>
-                                <path class="d" d="M19,9H15V3H9V9H5l7,7ZM5,18v2H19V18Z" transform="translate(475 382.208)"/>
-                            </g>
-                        </svg></button>
-                    </div>
+                    <a href="customer-tender.html"
+                       class="btn focus-none btn-success col-xl-3 col-lg-3 px-md-4 my-lg-2 mt-3 text-white">Опубликовать</a>
                 </div>
             </div>
         </div>
@@ -476,6 +426,13 @@
 <script src="../../js/popper.js"></script>
 <script src="../../js/bootstrap.js"></script>
 <script src="../../js/main.js"></script>
+<script>
+    $('.more-info-btn').on('click', function () {
+        $(this).find("i").toggleClass("icon-minus icon-plus");
+        $(this).parent().toggleClass('box-shadow-solutions')
+        $(this).parent().parent().find('.more-info-open').slideToggle();
+    });
+</script>
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>

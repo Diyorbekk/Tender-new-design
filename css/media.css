@@ -31,6 +31,14 @@
     .footer-logo {
         width: 270px;
     }
+
+    .countdown-value {
+        font-size: 22px!important;
+    }
+
+    .info-header-box-title {
+        font-size: 12px !important;
+    }
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
@@ -75,6 +83,18 @@
         position: unset;
         top: 0;
         margin-right: 10px;
+    }
+
+    .cabinet-left-panel {
+        height: 240px;
+    }
+
+    .chat-bg-box {
+        height: auto;
+    }
+
+    .cabinet-chat-list-ux {
+        height: auto;
     }
 }
 
@@ -144,6 +164,39 @@
     .form-file-upload .custom-file-label {
         line-height: normal;
         font-size: 14px;
+    }
+
+    .cabinet-left-panel {
+        height: 240px;
+    }
+
+    .chat-bg-box {
+        height: auto;
+    }
+
+    .cabinet-chat-list-ux {
+        height: auto;
+    }
+
+    .info-tender-card-active,
+    .info-tender-card-active{
+        width: 100%;
+    }
+
+    .solutions-first {
+        width: 500px;
+    }
+
+    .solutions-second {
+        width: 500px;
+    }
+
+    .solutions-first-text{
+        width: 250px;
+    }
+
+    .solutions-second-text{
+        width: 250px;
     }
 }
 
@@ -225,6 +278,39 @@
     .form-file-upload .custom-file-label {
         line-height: normal;
         font-size: 14px;
+    }
+
+    .cabinet-left-panel {
+        height: 240px;
+    }
+
+    .chat-bg-box {
+        height: auto;
+    }
+
+    .cabinet-chat-list-ux {
+        height: auto;
+    }
+
+    .info-tender-card-active,
+    .info-tender-card-active{
+        width: 100%;
+    }
+
+    .solutions-first {
+        width: 500px;
+    }
+
+    .solutions-second {
+        width: 500px;
+    }
+
+    .solutions-first-text{
+        width: 250px;
+    }
+
+    .solutions-second-text{
+        width: 250px;
     }
 }
 
@@ -317,6 +403,46 @@
         font-size: 13px;
     }
 
+    .cabinet-left-panel {
+        height: 240px;
+    }
+
+    .chat-bg-box {
+        height: auto;
+    }
+
+    .cabinet-chat-list-ux {
+        height: auto;
+    }
+
+    .page-link {
+        font-size: 12px;
+    }
+
+    .countdown-value {
+        font-size: 20px!important;
+    }
+
+    .info-tender-card-active,
+    .info-tender-card-active{
+        width: 100%;
+    }
+
+    .solutions-first {
+        width: 500px;
+    }
+
+    .solutions-second {
+        width: 500px;
+    }
+
+    .solutions-first-text{
+        width: 250px;
+    }
+
+    .solutions-second-text{
+        width: 250px;
+    }
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/

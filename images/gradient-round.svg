@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="212.515" height="212.519"
+     viewBox="0 0 212.515 212.519">
+    <defs>
+        <style>.a{fill:url(#a);}.b{stroke:rgba(0,0,0,0);stroke-miterlimit:10;fill:url(#b);}</style>
+        <linearGradient id="a" x1="-0.306" y1="0.901" x2="0.74" y2="0.381" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f5f5f5"/>
+            <stop offset="1" stop-color="#e6e6e6"/>
+        </linearGradient>
+        <linearGradient id="b" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00bfff"/>
+            <stop offset="1" stop-color="#04e296"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(-1371.989 -740.088)">
+        <path class="a"
+              d="M661.737,548.667A106.26,106.26,0,1,1,767.994,442.406,106.378,106.378,0,0,1,661.737,548.667Zm0-192.855a86.6,86.6,0,1,0,86.6,86.594A86.69,86.69,0,0,0,661.737,355.812Z"
+              transform="translate(816.51 403.94)"/>
+        <path class="b"
+              d="M0,102.979A103.1,103.1,0,0,1,102.736,0h.353A103.023,103.023,0,0,1,201.995,130.81h-13.7A89.9,89.9,0,0,0,104.449,13.122v.028c-.454-.011-.9-.037-1.36-.041h-.4c-.233,0-.46.011-.663.015s-.433.016-.663.021v-.023a89.875,89.875,0,0,0,1.615,179.735c.5,0,.98-.032,1.469-.036v13.107c-.49.005-.974.036-1.469.036A103.1,103.1,0,0,1,0,102.979Z"
+              transform="translate(1375.268 743.364)"/>
+    </g>
+</svg>
