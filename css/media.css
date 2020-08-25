@@ -96,6 +96,15 @@
     .cabinet-chat-list-ux {
         height: auto;
     }
+
+    .statistics-info-num-box {
+        height:  260px;
+    }
+
+    .statistics-all-info-absolute {
+        bottom: -0.5rem;
+        right: 1rem;
+    }
 }
 
 /*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*//*-----*/
@@ -197,6 +206,15 @@
 
     .solutions-second-text{
         width: 250px;
+    }
+
+    .statistics-info-num-box {
+        height:  210px;
+    }
+
+    .statistics-all-info-absolute {
+        bottom: -0.5rem;
+        right: 1rem;
     }
 }
 
@@ -311,6 +329,16 @@
 
     .solutions-second-text{
         width: 250px;
+    }
+
+    .statistics-info-num-box {
+        height:  210px;
+    }
+
+    .statistics-all-info-absolute {
+        position: relative;
+        bottom: -0.5rem;
+        right: 0;
     }
 }
 
@@ -442,6 +470,16 @@
 
     .solutions-second-text{
         width: 250px;
+    }
+
+    .statistics-info-num-box {
+        height:  210px;
+    }
+
+    .statistics-all-info-absolute {
+        position: relative;
+        bottom: -0.5rem;
+        right: 0;
     }
 }
 

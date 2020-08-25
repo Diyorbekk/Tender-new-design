@@ -287,6 +287,14 @@ body {
     color: #F44336;
 }
 
+.bg-F95F1B {
+    background: #F95F1B;
+}
+
+.color-F95F1B {
+    color: #F95F1B;
+}
+
 
 .bg-B1B1B1 {
     background: #B1B1B1;
@@ -1308,6 +1316,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 1.5rem;
+    z-index: 40;
 }
 
 .statistics-box  .map-statistics g#Path,
@@ -1329,6 +1338,15 @@ body {
 .statistics-box  .map-statistics g#Path-6,
 .statistics-box  .map-statistics g#Path-12 {
     fill: #f7b100;
+}
+
+.info-tender-card .notification-round {
+    right: -32px;
+    top: -15px;
+}
+.info-tender-card-active .notification-round {
+    right: -32px;
+    top: -15px;
 }
 
 
