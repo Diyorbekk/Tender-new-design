@@ -243,7 +243,7 @@ body {
 }
 
 .color-2C9AD9 {
-    color: #2C9AD9;
+    color: #2C9AD9!important;
 }
 
 .bg-F3F9FF {
@@ -858,6 +858,17 @@ body {
     z-index: 30;
 }
 
+.info-tender-card{
+    height: 100%;
+    background: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 30;
+}
+
 .info-tender-card-active::after {
     content: '';
     width: 100%;
@@ -1022,6 +1033,12 @@ body {
     user-select: none;
 }
 
+.info-tender-box .check-cont .container {
+    color: #0974C6;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 .check-cont .container input {
     position: absolute;
     opacity: 0;
@@ -1031,7 +1048,7 @@ body {
 }
 .check-cont .checkmark {
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
     height: 18px;
     width: 18px;
@@ -1042,7 +1059,11 @@ body {
     background-color: #ccc;
 }
 .check-cont .container input:checked ~ .checkmark {
-    background-color: #39BC53;
+     background-color: #39BC53;
+ }
+
+.info-tender-box .check-cont .container input:checked ~ .checkmark {
+    background-color: #1C7CD5;
 }
 .check-cont .checkmark:after {
     content: "";
@@ -1347,6 +1368,24 @@ body {
 .info-tender-card-active .notification-round {
     right: -32px;
     top: -15px;
+}
+
+.add-deny:before {
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #F1F6FB;
+    position: absolute;
+    left: 0;
+}
+
+.request-cus.active{
+    background: #152151;
+}
+
+.more-table {
+    max-height: 350px;
+    overflow-y: hidden;
 }
 
 

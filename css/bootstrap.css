@@ -1848,6 +1848,7 @@ pre code {
   width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  transition: all 1s ease-in-out;
 }
 
 .table-responsive > .table-bordered {
@@ -7960,6 +7961,10 @@ button.bg-dark:focus {
 
 .min-vh-100 {
   min-height: 100vh !important;
+}
+
+.min-vh-50 {
+  min-height: 50vh !important;
 }
 
 .vw-100 {

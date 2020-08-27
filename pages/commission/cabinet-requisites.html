@@ -12,9 +12,6 @@
           rel="stylesheet">
     <link rel="stylesheet" href="../../fonts/font-awesome.min.css">
 
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../../css/countdown.css"/>
-
     <!-- Bootstrap css link-->
     <link rel="stylesheet" href="../../css/bootstrap.css">
 
@@ -24,7 +21,7 @@
     <!-- Media css link -->
     <link rel="stylesheet" href="../../css/media.css">
 
-    <title>Тендер</title>
+    <title>Cabinet</title>
 </head>
 <body>
 <div class="main-body overflow-hidden">
@@ -55,7 +52,7 @@
 
                                             <img src="../../images/person.svg" alt="svg">
 
-                                            <span class="ml-4">Участник</span>
+                                            <span class="ml-4">Комиссия</span>
                                         </a>
                                     </form>
 
@@ -63,7 +60,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="main.html">Главная</a>
                                         </li>
-                                        <li class="nav-item active">
+                                        <li class="nav-item">
                                             <a class="nav-link" href="tender.html">Тендер</a>
                                         </li>
                                         <li class="nav-item">
@@ -111,7 +108,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="main.html">Главная</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="tender.html">Тендер</a>
                         </li>
                         <li class="nav-item">
@@ -133,7 +130,7 @@
 
                             <img src="../../images/person.svg" class="mr-4 mr-md-2 mr-lg-4" alt="svg">
 
-                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Участник</span>
+                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Комиссия</span>
                         </a>
                     </form>
                 </nav>
@@ -141,50 +138,143 @@
         </div>
     </div>
 
-    <div class="added-tender-box bg-F1F6FB pt-5">
-        <div class="container d-flex justify-content-center align-items-center pb-5 px-4">
-            <div class="col-lg-5 added-tender-completed-box px-5 py-4">
-                <img src="../../images/add-completed.svg" alt="svg">
+</div>
 
-                <p class="text-18 font-weight-500-medium">Успешно отправлено на модерацию</p>
+<div class="cabinet-body bg-F1F6FB py-5">
+    <div class="container pb-5 mb-7 px-4">
+        <div class="d-flex flex-wrap flex-lg-nowrap">
+            <div class="col-lg-2 px-0 mr-lg-2 cabinet-left-panel">
+                <div class="cabinet-left-panel-box">
+                    <ul class="py-4">
+                        <li class="d-flex align-items-center px-4 py-2 active">
+                            <a href="cabinet-requisites.html" class="text-white text-decoration-none mb-0">Реквизиты</a>
+                        </li>
+                        <li class="d-flex align-items-center px-4 py-2">
+                            <a href="cabinet-tender.html" class="text-white text-decoration-none mb-0">Мои тендеры</a>
+                        </li>
+                        <li class="more-info-open mt-4 px-5 w-100" style="display: none">
+
+                            <p class="font-weight-600-semi-bold solutions-first-text text-nowrap">Причина отказа</p>
+                            <p class="text-14 ml-5 solutions-second-text text-nowrap">Не хватает документы по финансовый
+                                части</p>
+                        </li>
+                        <li class="d-flex align-items-center px-4 py-2">
+                            <a href="cabinet-chat.html" class="text-white text-decoration-none mb-0">Чат</a>
+                        </li>
+                        <li class="d-flex align-items-center px-4 py-2">
+                            <a href="authorization.html" class="text-white text-decoration-none mb-0">Выйти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-10 px-0 cabinet-right-panel">
+                <div class="cabinet-right-panel-box p-4">
+                    <ul class="py-4">
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Наименования</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0">ГУП Ферганасувкурилишинвест</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">ИНН</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0">201152382-9000744</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Почтовый Индекс</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0">Ферганская область г. Фергана Фаргона ш. Ал-Фаргоний 92</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Факс</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0"></p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">ОКПО</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0">244-69-62</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Р/c</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0"></p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">МФО</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0"></p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Юридический тип</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0"></p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">ОКЕД</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0"></p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Область</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0">Фарғона област, Аҳмад Ал-Фарғоний кўчаси, 92-уй, тел./факс:
+                                    244-70-85.</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Район</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0"></p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start flex-wrap mb-3">
+                            <div class="col-md-4 text-md-right text-left">
+                                <p class="color-28366D font-weight-500-medium mb-0">Улица, Квартал</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="mb-0">Аҳмад Ал-Фарғоний кўчаси,</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-
-<div class="main-partners bg-white">
-    <div class="container">
-        <div class="d-flex align-items-center justify-content-between flex-wrap p-4">
-            <a href="#"
-               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 pl-lg-0 pr-lg-4 d-flex align-items-center justify-content-md-center justify-content-start">
-                <img src="../../images/logo-opendata.png" alt="png">
-
-                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">O'zbekiston Respublikasi Ochiq ma`lumotlar
-                    to`plami</p>
-            </a>
-            <a href="#"
-               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 d-flex align-items-center justify-content-md-center justify-content-start">
-                <img src="../../images/logo-strategy.png" alt="png">
-
-                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">Harakatlar strategiyasi</p>
-            </a>
-            <a href="#"
-               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 d-flex align-items-start justify-content-md-center justify-content-start">
-                <img src="../../images/logo-dd.png" alt="png">
-
-                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">O`zbekiston Respublikasi davlat dasturlar
-                    xizmati</p>
-            </a>
-            <a href="#"
-               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 pr-lg-0 pl-lg-4 d-flex align-items-start justify-content-md-center justify-content-start">
-                <img src="../../images/logo-mygovuz.png" alt="png">
-
-                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">Yagona interaktiv xizmatlar to`plami</p>
-            </a>
-        </div>
-    </div>
-</div>
 
 <footer class="footer bg-28366D pb-4">
     <div class="footer-empty p-4 footer-border"></div>
@@ -235,7 +325,10 @@
 <script src="../../js/bootstrap.js"></script>
 <script src="../../js/main.js"></script>
 <script>
-    setTimeout(function(){window.location.href="customer-tender.html"} , 3000);
+    $('.more-info-btn').on('click', function () {
+        $(this).find("i").toggleClass("icon-minus icon-plus");
+        $(this).parent().parent().find('.more-info-open').slideToggle();
+    });
 </script>
 </body>
 </html>

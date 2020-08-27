@@ -85,6 +85,19 @@
         margin-right: 10px;
     }
 
+    .form-file-upload {
+        transform: unset;
+    }
+
+    .info-tender-card-active,
+    .info-tender-card{
+        width: 100%;
+    }
+
+    .info-tender-header-card {
+        padding: 0!important;
+    }
+
     .cabinet-left-panel {
         height: 240px;
     }
@@ -188,7 +201,7 @@
     }
 
     .info-tender-card-active,
-    .info-tender-card-active{
+    .info-tender-card{
         width: 100%;
     }
 
@@ -215,6 +228,13 @@
     .statistics-all-info-absolute {
         bottom: -0.5rem;
         right: 1rem;
+    }
+
+    .alien-person-chat.mw-75 {
+        max-width: 100%!important;
+    }
+    .user-person-chat.mw-75 {
+        max-width: 100%!important;
     }
 }
 
@@ -311,7 +331,7 @@
     }
 
     .info-tender-card-active,
-    .info-tender-card-active{
+    .info-tender-card{
         width: 100%;
     }
 
@@ -339,6 +359,13 @@
         position: relative;
         bottom: -0.5rem;
         right: 0;
+    }
+
+    .alien-person-chat.mw-75 {
+        max-width: 100%!important;
+    }
+    .user-person-chat.mw-75 {
+        max-width: 100%!important;
     }
 }
 
@@ -452,7 +479,7 @@
     }
 
     .info-tender-card-active,
-    .info-tender-card-active{
+    .info-tender-card{
         width: 100%;
     }
 
@@ -480,6 +507,18 @@
         position: relative;
         bottom: -0.5rem;
         right: 0;
+    }
+
+    .alien-person-chat.mw-75 {
+        max-width: 100%!important;
+    }
+    .user-person-chat.mw-75 {
+        max-width: 100%!important;
+    }
+
+
+    .wait-btn {
+        margin-left: 0!important;
     }
 }
 

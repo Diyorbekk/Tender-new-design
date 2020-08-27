@@ -52,7 +52,7 @@
 
                                             <img src="../../images/person.svg" alt="svg">
 
-                                            <span class="ml-4">Заказчик</span>
+                                            <span class="ml-4">Комиссия</span>
                                         </a>
                                     </form>
 
@@ -130,7 +130,7 @@
 
                             <img src="../../images/person.svg" class="mr-4 mr-md-2 mr-lg-4" alt="svg">
 
-                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Заказчик</span>
+                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Комиссия</span>
                         </a>
                     </form>
                 </nav>
@@ -141,7 +141,7 @@
 </div>
 
 <div class="cabinet-body bg-F1F6FB py-5">
-    <div class="container pb-5 mb-6 min-vh-50 px-4">
+    <div class="container pb-5 mb-5 px-4">
         <div class="d-flex flex-wrap flex-lg-nowrap">
             <div class="col-lg-2 px-0 mr-lg-2 cabinet-left-panel">
                 <div class="cabinet-left-panel-box">
@@ -149,11 +149,12 @@
                         <li class="d-flex align-items-center px-4 py-2">
                             <a href="cabinet-requisites.html" class="text-white text-decoration-none mb-0">Реквизиты</a>
                         </li>
-                        <li class="d-flex align-items-center px-4 py-2">
+                        <li class="d-flex align-items-center px-4 py-2 active">
                             <a href="cabinet-tender.html" class="text-white text-decoration-none mb-0">Мои тендеры</a>
                         </li>
-                        <li class="d-flex align-items-center px-4 py-2 active">
-                            <a href="cabinet-commission.html" class="text-white text-decoration-none mb-0">Комиссия</a>
+                        <li class="d-flex flex-column pl-4 py-2">
+                            <a href="cabinet-tender.html" class="text-white request-cus text-15 text-decoration-none pl-3 py-1">Запрос заказчика</a>
+                            <a href="cabinet-tender-request-participant.html" class="text-white request-cus active text-15 text-decoration-none pl-3 py-1">Запрос участника</a>
                         </li>
                         <li class="d-flex align-items-center px-4 py-2">
                             <a href="cabinet-chat.html" class="text-white text-decoration-none mb-0">Чат</a>
@@ -165,22 +166,148 @@
                 </div>
             </div>
             <div class="col-lg-10 px-0 cabinet-right-panel">
-                <div class="cabinet-right-panel-box p-5">
-                    <p class="text-18 font-weight-600-semi-bold">Новый член комиссии</p>
+                <div class="cabinet-right-panel-box p-4">
+                    <div class="d-flex flex-wrap-reverse align-items-center justify-content-between mt-4">
+                        <div class="d-flex col-lg-4 col-6 px-0">
+                            <p class="font-weight-500-medium text-12 mb-0"><span>6</span> из <span>120</span></p>
 
-                    <div class="d-flex justify-content-center py-4 my-5">
-                        <div class="col-lg-6">
-                            <div class="form-group d-flex align-items-center">
-                                <label for="inn" class="mb-0 mr-3 text-14">ИНН</label>
-                                <input type="email" class="form-control" id="inn">
+                            <p class="text-12 mb-0"><i type="button" class="fa fa-chevron-left mx-lg-3 mx-2"></i>6<i
+                                    type="button"
+                                    class="fa fa-chevron-right mx-lg-3 mx-2"></i>
+                            </p>
+                        </div>
+
+                        <div class="filter-list-list col-lg-8 col-6 text-right px-0">
+                            <img src="../../images/icon-filter-list.svg" class="filter-list-icon" type="button"
+                                 alt="svg">
+
+                            <div class="filter-list-open" style="display: none">
+                                <div class="d-flex flex-wrap align-items-center justify-content-between text-left">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label class="text-12" for="Number-lot">№ лота</label>
+                                            <input type="text" class="form-control" id="Number-lot">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 pl-lg-0">
+                                        <div class="form-group">
+                                            <label class="text-12" for="name">Наименование</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 px-lg-0">
+                                        <div class="form-group">
+                                            <label class="text-12" for="object-tip">Тип объекта</label>
+                                            <select class="form-control" id="object-tip">
+                                                <option></option>
+                                                <option></option>
+                                                <option></option>
+                                                <option></option>
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label class="text-12" for="status">Статус</label>
+                                            <input type="text" class="form-control" id="status">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 pl-lg-0">
+                                        <div class="form-group">
+                                            <label class="text-12" for="customer">Заказчик</label>
+                                            <input type="text" class="form-control" id="customer">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 px-lg-0">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="col-lg-8 px-0">
+                                                <div class="form-group">
+                                                    <label class="text-12" for="data-po">Дата подачи</label>
+                                                    <select class="form-control" id="data-po">
+                                                        <option></option>
+                                                        <option></option>
+                                                        <option></option>
+                                                        <option></option>
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 pr-0 text-right">
+                                                <button type="button"
+                                                        class="btn bg-1C blue-btn-effect focus-none px-3 mt-lg-2 mt-3 pt-lg-2 text-white">
+                                                    Поиск
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="apply-new-commission d-flex align-items-center justify-content-lg-end justify-content-between pt-4 pb-lg-0 pb-4 mt-lg-4 px-lg-5 px-3">
-                    <button type="button" class="btn bg-F44336 text-white focus-none mr-4 mt-lg-1">Отменить</button>
-                    <button type="button" class="btn bg-1C text-white focus-none blue-btn-effect mt-lg-1">Подать заявку</button>
+                    <div class="table-responsive scroll-style mt-4 pb-5 mb-5">
+                        <table class="table borderless table-striped-even">
+                            <thead class="bg-F3F9FF">
+                            <tr>
+                                <th scope="col" class="font-weight-500-medium text-12 text-nowrap pl-4">№ лота</th>
+                                <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Статус</th>
+                                <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Наименование</th>
+                                <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Заказчик</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr onclick="location.href='customer-info-tender.html'" class="cursor-point">
+                                <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                    12254 85646 36ASFA
+                                </th>
+                                <td class="text-12 text-nowrap">В ожидании</td>
+                                <td class="text-12 text-three-line">Риштон туманидаги "Қуйи Қизилтепа" коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</td>
+                                <td class="text-12 text-nowrap">Гуп Фергана сув курилиш</td>
+                            </tr>
+                            <tr onclick="location.href='info-tender.html'" class="cursor-point">
+                                <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                    12254 85646 36ASFA
+                                </th>
+                                <td class="text-12 text-nowrap">Принято</td>
+                                <td class="text-12 ">Риштон туманидаги "Қуйи Қизилтепа" коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</td>
+                                <td class="text-12 text-nowrap">Гуп Фергана сув курилиш</td>
+                            </tr>
+                            <tr onclick="location.href='info-tender.html'" class="cursor-point">
+                                <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                    12254 85646 36ASFA
+                                </th>
+                                <td class="text-12 text-nowrap">Дисквалификация</td>
+                                <td class="text-12 ">Риштон туманидаги "Қуйи Қизилтепа" коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</td>
+                                <td class="text-12 text-nowrap">Гуп Фергана сув курилиш</td>
+                            </tr>
+                            <tr onclick="location.href='info-tender.html'" class="cursor-point">
+                                <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                    12254 85646 36ASFA
+                                </th>
+                                <td class="text-12 text-nowrap">Принято</td>
+                                <td class="text-12 ">Риштон туманидаги "Қуйи Қизилтепа" коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</td>
+                                <td class="text-12 text-nowrap">Гуп Фергана сув курилиш</td>
+                            </tr>
+                            <tr onclick="location.href='customer-info-tender.html'" class="cursor-point">
+                                <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                    12254 85646 36ASFA
+                                </th>
+                                <td class="text-12 text-nowrap">В ожидании</td>
+                                <td class="text-12 ">Риштон туманидаги "Қуйи Қизилтепа" коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</td>
+                                <td class="text-12 text-nowrap">Гуп Фергана сув курилиш</td>
+                            </tr>
+                            <tr onclick="location.href='info-tender.html'" class="cursor-point">
+                                <th scope="row" class="text-12 font-weight-normal pl-4 text-nowrap">
+                                    12254 85646 36ASFA
+                                </th>
+                                <td class="text-12 text-nowrap">Дисквалификацирован</td>
+                                <td class="text-12 ">Риштон туманидаги "Қуйи Қизилтепа" коллекторни тизимли таьмирлаш-тиклаш (1-босқич) 112,005 км</td>
+                                <td class="text-12 text-nowrap">Гуп Фергана сув курилиш</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

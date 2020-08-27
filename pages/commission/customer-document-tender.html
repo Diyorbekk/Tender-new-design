@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <!-- Fonts css links -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../../fonts/font-awesome.min.css">
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../../css/countdown.css"/>
+
+    <!-- Bootstrap css link-->
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+
+    <!-- Default css link -->
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <!-- Media css link -->
+    <link rel="stylesheet" href="../../css/media.css">
+
+    <title>Тендер</title>
+</head>
+<body>
+<div class="main-body overflow-hidden">
+    <div class="header">
+        <div class="header-top border-bottom border-color-DDE7F5">
+            <div class="container p-md-4 p-3">
+                <div class="d-flex align-items-center justify-content-md-between justify-content-center flex-wrap-reverse">
+                    <div class="col-md-3 p-0 mt-md-0 mt-4">
+                        <div class="d-flex align-items-start justify-content-between">
+                            <div class="col-6 p-0 main-logo">
+                                <a href="main.html"><img src="../../images/logo-text.svg" class="logo-blue"
+                                                         alt="svg"></a>
+                            </div>
+
+                            <nav class="d-md-none justify-content-end navbar navbar-expand-md p-0 navbar-light">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarTogglerDemo03"
+                                        aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                    <i class="nav-icon-bar fa fa-align-right"></i>
+                                </button>
+
+                                <div class="collapse navbar-collapse align-items-start text-right"
+                                     id="navbarTogglerDemo03">
+                                    <form class="form-inline my-2 my-lg-0 justify-content-end">
+                                        <a type="button" href="cabinet-requisites.html"
+                                           class="d-flex align-items-center btn bg-28366D text-14 text-white rounded-0 px-3 py-3">
+
+                                            <img src="../../images/person.svg" alt="svg">
+
+                                            <span class="ml-4">Комиссия</span>
+                                        </a>
+                                    </form>
+
+                                    <ul class="navbar-nav align-items-end mt-2 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="main.html">Главная</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="tender.html">Тендер</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contracts-and-agreements.html">Контракты и
+                                                договоры</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="news.html">Новости</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="statistics.html">Статистика</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="academy.html">Академия</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-5 col-lg-4 p-0">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-decoration-none color-28366D font-weight-500-medium">
+                                +998 90 000 00 00
+                            </a>
+
+                            <div class="d-flex align-items-center">
+                                <p class="text-14 language-select active" id="Uz">Uz</p>
+                                <span class="language-border"></span>
+                                <p class="text-14 language-select" id="En">En</p>
+                                <span class="language-border"></span>
+                                <p class="text-14 language-select pr-0" id="Ru">Ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="d-md-flex d-none align-items-end navbar p-0 navbar-light">
+
+                    <ul class="navbar-nav d-flex flex-row mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">Главная</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="tender.html">Тендер</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contracts-and-agreements.html">Контракты и договоры</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="statistics.html">Статистика</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy.html">Академия</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-lg-0">
+                        <a type="button" href="cabinet-requisites.html"
+                           class="d-flex align-items-center btn bg-28366D text-14 text-white rounded-0 px-3 py-3">
+
+                            <img src="../../images/person.svg" class="mr-4 mr-md-2 mr-lg-4" alt="svg">
+
+                            <span class="mr-4 mr-md-0 mr-lg-4 btn-text">Комиссия</span>
+                        </a>
+                    </form>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-tender-box bg-F1F6FB">
+        <div class="container pb-5 px-4">
+            <div class="info-tender-header pt-5 pb-3">
+                <div class="d-flex flex-wrap align-items-center">
+                    <div class="col-lg-2 pl-lg-0 pr-lg-3 px-0">
+                        <div class="info-header-box bg-white p-xl-4 p-md-3 p-2">
+                            <p class="info-header-box-title text-14 font-weight-600-semi-bold mb-0 pb-2">Дата начала</p>
+
+                            <p class="info-header-box-text text-17 font-weight-700-bold color-009F00 mb-0 mt-4 text-center">
+                                03-08-2020</p>
+                            <p class="info-header-box-text text-17 font-weight-700-bold color-009F00 mb-0 text-center">
+                                12:41</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 pr-lg-0 pr-lg-3 mt-lg-0 mt-3 px-0">
+                        <div class="info-header-box bg-white p-xl-4 p-md-3 p-2">
+                            <p class="info-header-box-title text-14 font-weight-600-semi-bold mb-0 pb-2">Дата
+                                окончания</p>
+
+                            <p class="info-header-box-text text-17 font-weight-700-bold color-F44336 mb-0 mt-4 text-center">
+                                03-08-2020</p>
+                            <p class="info-header-box-text text-17 font-weight-700-bold color-F44336 mb-0 text-center">
+                                12:41</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pr-lg-0 pr-lg-3 mt-lg-0 mt-3 px-0">
+                        <div class="info-header-box bg-white p-xl-4 p-md-3 p-2">
+                            <p class="info-header-box-title text-14 font-weight-600-semi-bold border-bottom-0 mb-lg-0 mb-2">
+                                До
+                                окончания осталось</p>
+
+                            <div class="d-flex justify-content-center">
+                                <div class='countdown' data-date="2020-09-20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pr-lg-0 mt-lg-0 mt-3 px-0">
+                        <div class="info-header-box bg-white p-xl-4 p-md-3 p-2">
+                            <p class="info-header-box-title text-14 font-weight-600-semi-bold mb-0 pb-2">Итого стартовая
+                                сумма</p>
+
+                            <p class="info-header-box-text text-22 font-weight-700-bold mt-4 text-center">285 000 000
+                                UZS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 px-md-3 px-0 info-tender-header-card flex-wrap bg-white">
+                <a href="customer-info-tender.html" class="info-tender-card text-decoration-none text-body px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0">Информация о лоте</p>
+                </a>
+                <a href="customer-document-tender.html"
+                   class="info-tender-card-active text-decoration-none text-body px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0">Документация</p>
+                </a>
+                <a href="customer-tender-chat.html" class="info-tender-card text-decoration-none text-body px-5 py-4">
+                    <p class="text-12 font-weight-500-medium mb-0 position-relative">Чат
+                        <span class="notification-round">2</span>
+                    </p>
+                </a>
+            </div>
+            <div class="col-12 info-tender-body-card bg-white position-relative z-index-5 px-md-5 pt-md-5 pb-1 px-3 pt-3">
+
+                <p class="font-weight-500-medium text-body py-4 mb-0">Описание и объёмы работы (услуги)</p>
+
+                <div class="table-responsive scroll-style mt-4 pb-5 more-table">
+                    <table class="table borderless table-striped-even">
+                        <thead class="bg-F3F9FF">
+                        <tr>
+                            <th scope="col" class="font-weight-500-medium text-12 pl-4">#</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Компонент номи</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Улчов бирлиги</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Лойиха курсаткичлари
+                                буйича микдори
+                            </th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Бирлик учун нарх</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Жами</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                1
+                            </th>
+                            <td class="text-12 text-nowrap">Металл</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                2
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">2 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                3
+                            </th>
+                            <td class="text-12 text-nowrap">Кум</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Цемент</td>
+                            <td class="text-12">Тонна
+                            </td>
+                            <td class="text-12 text-nowrap">1 000</td>
+                            <td>
+
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="d-flex justify-content-center border-top py-2">
+                    <button class="btn more-info-btn focus-none">
+                        <span class="btn bg-1C blue-btn-effect focus-none px-5 py-0 text-white">
+                            <i class="icon-plus text-white fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 info-tender-body-card deny-adding bg-white position-relative z-index-5 px-md-5 pt-md-5 pb-1 px-3 pt-3 mt-2">
+
+                <p class="font-weight-500-medium text-body py-4 mb-0">График работ строительства</p>
+
+
+                <div class="table-responsive scroll-style mt-4 pb-5 more-table">
+                    <table class="table borderless table-striped-even">
+                        <thead class="bg-F5E9FF">
+                        <tr>
+                            <th scope="col" class="font-weight-500-medium text-12 pl-4">#</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Описание работы</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Бошлаш санаси</th>
+                            <th scope="col" class="font-weight-500-medium text-12 text-nowrap">Тугатиш санаси</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                1
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                2
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                3
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-12 font-weight-normal pl-4">
+                                4
+                            </th>
+                            <td class="text-12 text-nowrap">Описание работы</td>
+                            <td class="text-12">-</td>
+                            <td class="text-12 text-nowrap">-</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="d-flex justify-content-center border-top py-2">
+                    <button class="btn more-info-btn focus-none">
+                        <span class="btn bg-1C blue-btn-effect focus-none px-5 py-0 text-white">
+                            <i class="icon-plus text-white fa fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+
+                <div class="more-info-open" style="display: none">
+                </div>
+
+
+            </div>
+            <div class="col-12 added-tender-box-footer bg-white px-lg-5 py-lg-4 p-3 d-flex align-items-center justify-content-md-end justify-content-between mt-2 flex-wrap">
+                <button type="button" class="btn btn-danger text-white mr-2 mt-md-0 mt-2 deny-btn">Отказать</button>
+                <button type="button" class="btn bg-1C blue-btn-effect text-white ml-2 mr-2 mt-md-0 mt-2 wait-btn">
+                    Воздержаться
+                </button>
+                <button type="button" class="btn btn-success text-white ml-md-2 mt-md-0 mt-2">Принять</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="main-partners bg-white">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between flex-wrap p-4">
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 pl-lg-0 pr-lg-4 d-flex align-items-center justify-content-md-center justify-content-start">
+                <img src="../../images/logo-opendata.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">O'zbekiston Respublikasi Ochiq ma`lumotlar
+                    to`plami</p>
+            </a>
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 d-flex align-items-center justify-content-md-center justify-content-start">
+                <img src="../../images/logo-strategy.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">Harakatlar strategiyasi</p>
+            </a>
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 d-flex align-items-start justify-content-md-center justify-content-start">
+                <img src="../../images/logo-dd.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">O`zbekiston Respublikasi davlat dasturlar
+                    xizmati</p>
+            </a>
+            <a href="#"
+               class="col-xl-3 text-body text-decoration-none mt-xl-0 mt-4 py-xl-4 pr-lg-0 pl-lg-4 d-flex align-items-start justify-content-md-center justify-content-start">
+                <img src="../../images/logo-mygovuz.png" alt="png">
+
+                <p class="text-13 font-weight-600-semi-bold mb-0 ml-3">Yagona interaktiv xizmatlar to`plami</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer bg-28366D pb-4">
+    <div class="footer-empty p-4 footer-border"></div>
+
+    <div class="container">
+        <div class="d-flex align-items-start justify-content-between flex-wrap my-4">
+            <div class="col-lg-4 mt-lg-0 my-4 pl-lg-0 text-md-center text-lg-left text-left pr-lg-3">
+                <img src="../../images/logo-white.png" class="footer-logo" alt="png">
+            </div>
+            <div class="col-lg-4 mt-lg-0 my-4 px-lg-4 text-md-center text-lg-left text-left border-left border-right">
+                <div class="footer-links-box mx-lg-4">
+                    <p class="text-12 font-weight-600-semi-bold text-white">ОФИЦИАЛЬНЫЕ РЕСУРСЫ</p>
+                    <ul class="mt-2">
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O'zbekiston
+                            Respublikasi Qurilish vazirligi</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O`zbekiston
+                            Respublikasi Prezidentining rasmiy sayti</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O`zbekiston
+                            Respublikasi davlat dasturlar xizmati</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">O`zbekiston
+                            Respublikasi Hukumat portali</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Yagona
+                            interaktiv xizmatlar to`plami</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Harakatlar
+                            strategiyasi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 mt-lg-0 my-4 pr-lg-0 text-md-center text-lg-left text-left pl-lg-3">
+                <div class="footer-links-box mx-lg-4">
+                    <p class="text-12 font-weight-600-semi-bold text-white">ТЕХНИЧЕСКАЯ ИНФОРМАЦИЯ</p>
+                    <ul class="mt-2">
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Техническая
+                            поддержка</a></li>
+                        <li class="mb-2"><a href="#" class="text-12 text-white text-decoration-none">Ваши идеи по
+                            улучшению сайта</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Js links -->
+
+<script src="../../js/jQuery.min.js"></script>
+<script src="../../js/popper.js"></script>
+<script src="../../js/bootstrap.js"></script>
+<script src="../../js/main.js"></script>
+<script>
+    $('.more-info-btn').on('click', function () {
+        $(this).find("i").toggleClass("icon-minus icon-plus");
+        $(this).parent().toggleClass("border-top border-none");
+        $('.table').parent().toggleClass("more-table");
+        $(this).parent().parent().find('.more-info-open').slideToggle();
+    });
+
+    $('.deny-btn').one('click', function () {
+        $('.deny-adding').append('                <div class="add-deny">\n' +
+            '                <div class="form-group">\n' +
+            '                    <label for="exampleFormControlTextarea1" class="font-weight-500-medium mt-5">Причина отказа</label>\n' +
+            '                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>\n' +
+            '                </div>\n' +
+            '\n' +
+            '                <button type="button" class="btn bg-1C blue-btn-effect text-white px-4 mb-5">Файл</button>\n' +
+            '                </div>')
+
+        $('.btn-success').remove()
+        $('.wait-btn').html('Отменить').after($('.deny-btn').removeClass('mr-2').click( function () {
+            location.href='customer-tender.html'
+        }));
+    })
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../../js/countdown.js"></script>
+</body>
+</html>
